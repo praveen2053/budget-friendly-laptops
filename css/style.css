@@ -64,7 +64,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  padding: 2rem 9%;
+  padding: 2rem 6%;
   z-index: 1000;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,7 +82,7 @@ section {
 
 .header .logo {
   margin-right: auto;
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   color: #2f3542;
   font-weight: bolder;
 }
@@ -94,7 +94,7 @@ section {
 .header .navbar a {
   margin-left: 2rem;
   font-size: 1.7rem;
-  color: #2f3542;
+  color: #000000;
 }
 
 .header .navbar a:hover {
@@ -110,7 +110,7 @@ section {
 
 .header .icons a,
 .header .icons div {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-left: 2rem;
   cursor: pointer;
   color: #2f3542;
@@ -314,13 +314,14 @@ section {
 }
 
 .about .content h3 {
-  font-size: 3rem;
-  color: #FF385C;
+  font-size: 2.2rem;
+  color: #19191a;
+  text-align: justify;
 }
 
 .about .content p {
   font-size: 1.5rem;
-  color: #2f3542;
+  color: #36373a;
   padding: 1rem 0;
   line-height: 2;
 }
@@ -437,8 +438,6 @@ section {
 .packages .box-container .box .image {
   height: 25rem;
   overflow: hidden;
-  padding: 2rem;
-  padding-bottom: 0;
   border-radius: .5rem;
 }
 
